@@ -25,7 +25,7 @@ Feature: Test Cogmento CRM Application
       | ContactInfo |         2 |
     
 
-  Scenario: validate logout functionality
+  Scenario: validate logout service functionality
     When user click on profile icon
     And user logout the application
     And user close the session
